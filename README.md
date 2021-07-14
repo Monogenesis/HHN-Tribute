@@ -13,11 +13,11 @@ https://tribute-db.web.app/
   
 ## Lessons Learned
 
-#### Methodics:
+Methodics:
 - Workflow (Jira, Confluence and Bitbucket)
 - Working with a team using scrum
 
-#### Tools:
+Tools:
 - Firebase (Authentification, Firestore, Hosting)
 - React.js
 - Leaflet.js
