@@ -1,0 +1,16 @@
+{
+    "short_name": "Tribute App",
+    "name": "Tribute Progressive Web Application",
+    "icons": [
+        {
+            "src": "/images/logo.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "d2f8d2",
+    "scope": "/"
+}

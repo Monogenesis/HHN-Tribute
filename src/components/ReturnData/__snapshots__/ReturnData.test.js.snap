@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReturnDataButton renders correctly 1`] = `
+<div>
+  <button
+    id="returnDataButton"
+    onClick={[Function]}
+    type="button"
+  >
+    Check my stats
+  </button>
+</div>
+`;

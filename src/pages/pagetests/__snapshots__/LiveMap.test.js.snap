@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LiveMap Page renders correctly 1`] = `
+<body>
+  <div>
+    <h1
+      className="LivemapTitle"
+    >
+      HeatMap
+    </h1>
+  </div>
+  <div
+    id="heatMap"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "90vh",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="selectTitle"
+        >
+          <span>
+            <h2>
+              Auswahl:
+            </h2>
+          </span>
+        </div>
+        <div
+          className="selectDiv"
+        >
+          <select
+            className="selectSection"
+            defaultValue={
+              Object {
+                "label": "Woher sind unsere Helden",
+                "value": "userMap",
+              }
+            }
+            onChange={[Function]}
+          >
+            <option
+              value="userMap"
+            >
+              Woher unsere Helden kommen
+            </option>
+            <option
+              value="feverMap"
+            >
+              Erhöhte Körpertemperatur
+            </option>
+          </select>
+        </div>
+        <div
+          className="mapDiv"
+        >
+          <div
+            id="map"
+            style={
+              Object {
+                "height": 700,
+                "width": 960,
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

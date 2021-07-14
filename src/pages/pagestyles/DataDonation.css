@@ -1,0 +1,420 @@
+:root {
+  --backgroundColor: #1a2833;
+  --logoColor: #12dbe2;
+  --borderColor: #0e8daa;
+  --buttonColor: #0e93b1;
+  --navbarColor: #152028;
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.NavbarElements {
+  background:var(--navbarColor);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-bottom: 4px solid var(--borderColor);
+}
+
+.mainBackground {
+  position: relative;
+  background-color: var(--backgroundColor);
+}
+
+.RegistrationTitle {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: block;
+  padding: 1%;
+  color: var(--logoColor);
+  font-size: 2.5rem;
+  background-color: var(--backgroundColor);
+  background-size: auto;
+  border-bottom: 4px solid var(--logoColor);
+}
+
+.RegistrationHeader {
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  padding: 1%;
+  color: var(--backgroundColor);
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  background-size: auto;
+}
+
+.Space {
+  border-bottom: 4px solid var(--logoColor);
+}
+
+.tibutField {
+  position: relative;
+  background-color: var(--backgroundColor);
+  height: 85vh;
+  border-bottom: 4px solid var(--logoColor);
+}
+
+.tributTable {
+  position: relative;
+  left: 35%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.genderLabel, .ageLabel, .heightLabel, .weightLabel, .zipCodeLabel, .spaceHolder {
+  position: relative;
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  background-size: auto cover;
+  text-align: auto;
+  background-color: var(--backgroundColor);
+  color: var(--logoColor);
+}
+
+.genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+  padding-bottom: 3%;
+}
+
+.dropdownGender, .dropdownAge, .dropdownHeight, .dropdownWeight, .fieldZipCode {
+  position: relative;
+  list-style-type: none;
+  margin: 25px auto 0;
+  background-color: var(--logoColor);
+  font-family: 'Montserrat', sans-serif;
+  left: 40%;
+  padding: 5%;
+  border: none;
+  margin-bottom: 3%;
+}
+
+#submitButton {
+  background-color: var(--buttonColor);
+  color: white;
+  padding: 5%;
+  font-size: 16px;
+  margin: 50px auto 0;
+  margin-left: 40%;
+  height: 50px;
+  width: 150px;
+}
+#backButton {
+  background-color: var(--buttonColor);
+  color: white;
+  padding: 5%;
+  font-size: 16px;
+  margin: 50px auto 0;
+  margin-left: 20%;
+  height: 50px;
+}
+.fieldZipCode {
+  width: 81.75%;
+}
+
+@media screen and (max-width: 960px),  screen and (max-height: 710px) {
+  .tributTable {
+    left: 30%;
+  }
+  .RegistrationTitle {
+    font-size: 2rem;
+  }
+  .RegistrationHeader {
+    font-size: 1.8rem;
+  }
+  .tributTable {
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .genderLabel, .ageLabel, .heightLabel, .weightLabel, .zipCodeLabel, .spaceHolder {
+    position: relative;
+    font-size: 2em;
+  }
+  .genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+    padding-bottom: 5%;
+  }
+  .dropdownGender, .dropdownAge, .dropdownHeight, .dropdownWeight, .fieldZipCode {
+    position: relative;
+    margin: 25px auto 0;
+    padding: 4%;
+    margin-bottom: 2%;
+  }
+  .fieldZipCode {
+    width: 82.5%;
+  }
+  
+  #submitButton {
+    background-color: var(--buttonColor);
+    color: white;
+    padding: 5%;
+    font-size: 16px;
+    margin: 50px auto 0;
+    margin-left: 40%;
+    height: 50px;
+    width: 150px;
+  }
+  #backButton {
+    background-color: var(--buttonColor);
+    color: white;
+    padding: 5%;
+    font-size: 16px;
+    margin: 50px auto 0;
+    margin-left: 20%;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 800px),  screen and (max-height: 680px) {
+  .tributTable {
+    left: 25%;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .RegistrationTitle {
+    font-size: 1.8rem;
+  }
+  .RegistrationHeader {
+    font-size: 1.6rem;
+  }
+  .genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 650px),  screen and (max-height: 660px) {
+  .tributTable {
+    left: 20%;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .RegistrationTitle {
+    font-size: 1.5rem;
+  }
+  .RegistrationHeader {
+    font-size: 1.4rem;
+  }
+  .genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+    padding-bottom: 5%;
+  }
+}
+@media screen and (max-width: 550px),  screen and (max-height: 650px) {
+  .tributTable {
+    left: 20%;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .genderLabel, .ageLabel, .heightLabel, .weightLabel, .zipCodeLabel, .spaceHolder {
+    position: relative;
+    font-size: 1.5em;
+  }
+  .genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+    padding-bottom: 2%;
+  }
+  .dropdownGender, .dropdownAge, .dropdownHeight, .dropdownWeight, .fieldZipCode {
+    position: relative;
+    margin: 15px auto 0;
+    padding: 4%;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 475px),  screen and (max-height: 535px) {
+  .tributTable {
+    left: 15%;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .genderLabel, .ageLabel, .heightLabel, .weightLabel, .zipCodeLabel, .spaceHolder {
+    position: relative;
+    font-size: 1.5em;
+  }
+  .genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+    padding-bottom: 1%;
+  }
+  .dropdownGender, .dropdownAge, .dropdownHeight, .dropdownWeight, .fieldZipCode {
+    position: relative;
+    margin: 15px auto 0;
+    padding: 1%;
+    margin-bottom: 1%;
+  }
+  .RegistrationTitle {
+    font-size: 1.2rem;
+  }
+  .RegistrationHeader {
+    font-size: 1.1rem;
+  }
+  #submitButton {
+    background-color: var(--buttonColor);
+    color: white;
+    padding: 5%;
+    font-size: 12px;
+    margin: 50px auto 0;
+    margin-left: 40%;
+    height: 50px;
+    width: 100px;
+  }
+  #backButton {
+    background-color: var(--buttonColor);
+    color: white;
+    padding: 5%;
+    font-size: 12px;
+    margin: 50px auto 0;
+    margin-left: 40%;
+    height: 50px;
+  }
+  .fieldZipCode {
+    width: 81%;
+  }
+  @media screen and (max-width: 455px),  screen and (max-height: 470px) {
+    .tributTable {
+      left: 12%;
+      position: relative;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+    .genderLabel, .ageLabel, .heightLabel, .weightLabel, .zipCodeLabel, .spaceHolder {
+      position: relative;
+      font-size: 1.2em;
+    }
+    .genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+      padding-bottom: 1%;
+    }
+    .dropdownGender, .dropdownAge, .dropdownHeight, .dropdownWeight, .fieldZipCode {
+      position: relative;
+      margin: 15px auto 0;
+      padding: 1%;
+      margin-bottom: 1%;
+    }
+    .RegistrationTitle {
+      font-size: 1.2rem;
+    }
+    .RegistrationHeader {
+      font-size: 1rem;
+    }
+    #submitButton {
+      background-color: var(--buttonColor);
+      color: white;
+      padding: 5%;
+      font-size: 12px;
+      margin: 50px auto 0;
+      margin-left: 40%;
+      height: 50px;
+      width: 100px;
+    }
+    #backButton {
+      background-color: var(--buttonColor);
+      color: white;
+      padding: 5%;
+      font-size: 12px;
+      margin: 50px auto 0;
+      margin-left: 40%;
+      height: 50px;
+    }
+  }
+  @media screen and (max-width: 380px),  screen and (max-height: 435px) {
+    .tributTable {
+      left: 12%;
+      position: relative;
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+    .genderLabel, .ageLabel, .heightLabel, .weightLabel, .zipCodeLabel, .spaceHolder {
+      position: relative;
+      font-size: 0.75em;
+    }
+    .genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+      padding-bottom: 1%;
+    }
+    .dropdownGender, .dropdownAge, .dropdownHeight, .dropdownWeight, .fieldZipCode {
+      position: relative;
+      margin: 10px auto 0;
+      padding: 1%;
+      margin-bottom: 2%;
+      font-size: 0.75em;
+    }
+    .RegistrationTitle {
+      font-size: 1.1rem;
+    }
+    .RegistrationHeader {
+      font-size: 0.9rem;
+    }
+    #submitButton {
+      background-color: var(--buttonColor);
+      color: white;
+      padding: 5%;
+      font-size: 12px;
+      margin: 50px auto 0;
+      margin-left: 40%;
+      height: 50px;
+      width: 100px;
+    }
+    #backButton {
+      background-color: var(--buttonColor);
+      color: white;
+      padding: 5%;
+      font-size: 12px;
+      margin: 50px auto 0;
+      margin-left: 40%;
+      height: 50px;
+    }
+    .fieldZipCode {
+      width: 86.5%;
+    }
+  }
+  @media screen and (max-width: 310px),  screen and (max-height: 360px) {
+    .tributTable {
+      left: 2%;
+      position: relative;
+      padding-top: 1%;
+      padding-bottom: 0%;
+    }
+    .genderLabel, .ageLabel, .heightLabel, .weightLabel, .zipCodeLabel, .spaceHolder {
+      position: relative;
+      font-size: 0.75em;
+    }
+    .genderArea, .ageArea, .heightArea, .weightArea, .zipCodeArea {
+      padding-bottom: 0%;
+    }
+    .dropdownGender, .dropdownAge, .dropdownHeight, .dropdownWeight, .fieldZipCode {
+      position: relative;
+      margin: 10px auto 0;
+      padding: 1%;
+      margin-bottom: 2%;
+      font-size: 0.75em;
+    }
+    .RegistrationTitle {
+      font-size: 1.1rem;
+    }
+    .RegistrationHeader {
+      font-size: 0.9rem;
+    }
+    #submitButton {
+      background-color: var(--buttonColor);
+      color: white;
+      padding: 5%;
+      font-size: 12px;
+      margin: 50px auto 0;
+      margin-left: 40%;
+      height: 50px;
+      width: 100px;
+    }
+    #backButton {
+      background-color: var(--buttonColor);
+      color: white;
+      padding: 5%;
+      font-size: 12px;
+      margin: 50px auto 0;
+      margin-left: 40%;
+      height: 50px;
+    }
+  }
+}

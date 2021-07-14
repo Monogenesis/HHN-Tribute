@@ -1,0 +1,29 @@
+.selectTitle {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 3%;
+}
+
+.selectDiv{
+    padding-bottom: 3%;
+}
+.selectSection{
+    position: relative;
+    list-style-type: none;
+    color:black;
+    background-color: var(--logoColor);
+    font-family: 'Montserrat', sans-serif;
+    padding:1%;
+    border: none;
+}
+
+
+#map {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right:2px solid black;
+    height: 700px;
+    width: 850px;
+    z-index: 0;
+}

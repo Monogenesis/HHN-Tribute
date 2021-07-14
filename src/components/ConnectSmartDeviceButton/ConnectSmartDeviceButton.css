@@ -1,0 +1,15 @@
+:root {
+    --backgroundColor: #1a2833;
+    --logoColor: #12dbe2;
+    --borderColor: #0e8daa;
+    --buttonColor: #0e93b1;
+  }
+
+#smartDeviceButton{
+    background-color: var(--buttonColor);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5%;
+    font-size: 16px;
+    margin: 50px auto 0;
+}

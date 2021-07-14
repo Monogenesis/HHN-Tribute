@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<nav
+  className="NavbarElements"
+>
+  <div
+    className="menubar-logo"
+  >
+    <img
+      alt="logo"
+      src="logo.png"
+      width="200"
+    />
+  </div>
+  <div
+    className="menu-icon"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-bars"
+    />
+  </div>
+  <ul
+    className="nav-menu"
+  >
+    <li>
+      <a
+        className="nav-links"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-links"
+        href="/profile"
+      >
+        Profile
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-links"
+        href="/heatmap"
+      >
+        HeatMap
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-links"
+        href="/registration"
+      >
+        Registration
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

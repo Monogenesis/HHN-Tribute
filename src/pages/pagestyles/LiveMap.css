@@ -1,0 +1,134 @@
+:root {
+  --backgroundColor: #1a2833;
+  --logoColor: #12dbe2;
+  --borderColor: #0e8daa;
+  --buttonColor: #0e93b1;
+  --navbarColor: #152028;
+}
+
+.NavbarElements {
+  background: var(--navbarColor);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-bottom: 4px solid var(--borderColor);
+}
+
+.LivemapTitle {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: block;
+  padding: 1%;
+  color: var(--logoColor);
+  font-size: 2.5rem;
+  background-color: var(--backgroundColor);
+  background-size: auto;
+  border-bottom: 4px solid var(--logoColor);
+}
+.selectTitle{
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 960px),  screen and (max-height: 900px) {
+  .LivemapTitle {
+    font-size: 2rem;
+  }
+  .selectTitle{
+    font-size: 1.25rem;
+  }
+  #map{
+    height: 600px;
+    width: 800px;
+  }
+  
+}
+
+@media screen and (max-width: 800px),  screen and (max-height: 770px) {
+  .LivemapTitle {
+    font-size: 1.8rem;
+  }
+  .selectTitle{
+    font-size: 1rem;
+  }
+  #map{
+    height: 500px;
+    width: 660px;
+  }
+}
+
+@media screen and (max-width: 660px),  screen and (max-height: 650px) {
+  .LivemapTitle {
+    font-size: 1.5rem;
+  }
+  .selectTitle{
+    font-size: 0.75rem;
+  }
+  #map{
+    height: 475px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 600px),  screen and (max-height: 600px) {
+  .LivemapTitle {
+    font-size: 1.4rem;
+  }
+  .selectTitle{
+    font-size: 0.75rem;
+  }
+  #map{
+    height: 450px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 450px),  screen and (max-height: 480px) {
+  .LivemapTitle {
+    font-size: 1.2rem;
+  }
+  .selectSection{
+    width: 400px;
+  }
+  #map{
+    height: 450px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px),  screen and (max-height: 400px) {
+  .LivemapTitle {
+    font-size: 1.2rem;
+  }
+  .selectSection{
+    width: 350px;
+  }
+  #map{
+    height: 400px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 350px),  screen and (max-height: 350px) {
+  .LivemapTitle {
+    font-size: 1.2rem;
+  }
+  .selectSection{
+    width: 300px;
+  }
+  #map{
+    height: 375px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 280px),  screen and (max-height: 280px) {
+  .LivemapTitle {
+    font-size: 1.1rem;
+  }
+  .selectSection{
+    width: 275px;
+  }
+  #map{
+    height: 350;
+    width: 280px;
+  }
+}

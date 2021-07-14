@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Page renders correctly 1`] = `
+<header>
+  <section
+    className="Profil"
+  >
+    <div
+      id="root"
+    >
+      <section
+        className="ProfileSection"
+      >
+        <h1
+          className="ProfilTitle"
+        >
+          Profile
+        </h1>
+      </section>
+      <section
+        className="UserIDSection"
+      >
+        <h2
+          className="UserIDTitle"
+        >
+          Pseudonym:
+        </h2>
+        <p />
+        <article
+          className="UserID"
+          id="UserID"
+        >
+          ******************
+        </article>
+        <p
+          className="Space"
+        />
+      </section>
+      <section
+        className="MetaDatenSection"
+      >
+        <h3
+          className="MetadatenTitle"
+        >
+          Your information:
+        </h3>
+        <article
+          className="Gender"
+          id="currentGender"
+        >
+          ------
+        </article>
+        <p />
+        <article
+          className="Age"
+          id="currentAge"
+        >
+          ------
+        </article>
+        <p />
+        <article
+          className="Weight"
+          id="currentWeight"
+        >
+          ------
+        </article>
+        <p />
+        <article
+          className="Height"
+          id="currentHeight"
+        >
+          ------
+        </article>
+        <p />
+        <article
+          className="ZipCode"
+          id="currentZipCode"
+        >
+          ------
+        </article>
+        <p
+          className="Space2"
+        />
+      </section>
+      <section
+        className="TimeStampSection"
+      >
+        <h4
+          className="TimestampTitle"
+        >
+          Last Update:
+        </h4>
+        <article
+          className="Date"
+          id="lastTimestamp"
+        >
+          ------
+        </article>
+      </section>
+      <div
+        className="tableDiv"
+      >
+        <div
+          className="centerDiv"
+        >
+          <table
+            className="smartDeviceTable"
+          >
+            <tr
+              className="buttonRow"
+            >
+              <td
+                className="returnDataButton"
+              >
+                <div>
+                  <button
+                    id="returnDataButton"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Check my stats
+                  </button>
+                </div>
+              </td>
+              <td
+                className="connectSmartDeviceButton"
+              >
+                 
+                <div>
+                  <button
+                    id="smartDeviceButton"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Connect Device
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+`;

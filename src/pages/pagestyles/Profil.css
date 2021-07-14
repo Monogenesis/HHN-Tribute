@@ -1,0 +1,243 @@
+:root {
+    --backgroundColor: #1a2833;
+    --logoColor: #12dbe2;
+    --borderColor: #0e8daa;
+    --buttonColor: #0e93b1;
+    --navbarColor: #152028;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.Profil {
+    color: var(--backgroundColor);
+    background: white;
+    height: 85vh;
+}
+
+.NavbarElements {
+    background: var(--navbarColor);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-bottom: 4px solid (var(--borderColor));
+}
+
+.ProfilTitle {
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 4px solid var(--logoColor);
+    text-align: center;
+    padding: 1%;
+    font-size: 2.5rem;
+}
+
+.ProfileSection {
+    color: var(--logoColor);
+    background: var(--backgroundColor);
+}
+
+.UserIDTitle {
+    font-size: 2.3em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+#UserID {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.Space, .Space2, .TimeStampSection {
+    border-bottom: 4px solid var(--logoColor);
+}
+
+.MetadatenTitle {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.MetaDatenSection {
+    background-color: #1a2833;
+    color: var(--logoColor);
+}
+
+.Gender, .Age, .Weight, .Height, .ZipCode {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.TimestampTitle {
+    font-size: 2.3em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    text-decoration: underline;
+}
+
+.Date {
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 5vh;
+}
+
+.smartDeviceTable {
+    position: relative;
+    text-align: center;
+    background-color: var(--backgroundColor);
+}
+
+.tableDiv {
+    height: 200px;
+    position: relative;
+    background-color: var(--backgroundColor);
+}
+
+.centerDiv {
+    margin: 0;
+    position: absolute;
+    height: 0%;
+    top: 0%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#newDataDonation{
+    background-color: var(--buttonColor);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5%;
+    font-size: 14px;
+    margin: 20px auto 0;
+}
+
+.toggle-container {
+    padding-top: 5px;
+    float: 1px;
+    flex-direction: row;
+    flex-flow: row;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: var(--logoColor);
+}
+
+@media screen and (max-width: 960px) {
+    
+    .ProfilTitle {
+        font-size: 1.8em;
+        color: var(--logoColor);
+        border-bottom: 4px solid var(--logoColor);
+    }
+    .UserIDTitle {
+        font-size: 1.7em;
+        padding-top: 15px;
+        text-decoration: underline;
+    }
+    #UserID {
+        text-align: center;
+        font-size: 1.2em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .MetadatenTitle {
+        font-size: 1.70em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .Gender, .Age, .Weight, .Height, .ZipCode {
+        font-size: 1em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        letter-spacing: 0px;
+    }
+    .TimestampTitle {
+        font-size: 1.7em;
+        padding-top: 15px;
+        text-decoration: underline;
+    }
+    .Date {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    #newDataDonation{
+        background-color: var(--buttonColor);
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        padding: 5%;
+        font-size: 14px;
+        margin: 50px auto 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ProfilTitle {
+        font-size: 1.5em;
+        border-bottom: 4px solid var(--logoColor);
+    }
+    .UserIDTitle {
+        font-size: 1.2em;
+        padding-top: 15px;
+        text-decoration: underline;
+    }
+    #UserID {
+        text-align: center;
+        font-size: 0.9em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .MetadatenTitle {
+        font-size: 1.2em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .Gender, .Age, .Weight, .Height, .ZipCode {
+        font-size: 0.8em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        letter-spacing: 0px;
+    }
+    .TimestampTitle {
+        font-size: 1.2em;
+        padding-top: 15px;
+        text-decoration: underline;
+    }
+    .Date {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .buttonSection {
+        size: auto;
+    }
+    #newDataDonation{
+        background-color: var(--buttonColor);
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        padding: 5%;
+        font-size: 14px;
+        margin: 50px auto 0;
+        margin-left: 6%;
+    }
+}

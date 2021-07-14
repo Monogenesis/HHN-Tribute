@@ -1,0 +1,289 @@
+:root {
+    --backgroundColor: #1a2833;
+    --logoColor: #12dbe2;
+    --borderColor: #0e8daa;
+    --buttonColor: #0e93b1;
+    --navbarColor: #152028;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#number .userNumber {
+    text-align: center;
+    
+}
+
+.NavbarElements {
+    background: hsl(205, 31%, 12%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-bottom: 4px solid #0e8daa;
+  }
+
+#main {
+    display: block;
+    padding: 100px;
+    margin-top: -4px;
+    border-bottom: 4px solid var(--logoColor);
+    border-top: 4px solid var(--borderColor);
+    background-position: 0px 0px 50% 50%;
+    background-size: auto cover;
+    box-shadow: 3px 20px 6px -9px black;
+    text-align: center;
+    background-clip: border-box;
+    background-color: var(--backgroundColor);
+}
+
+#main .main-text {
+    margin-bottom: 30px;
+    color: var(--logoColor);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#main .main-subtext {
+    margin-bottom: 40px;
+    color: var(--logoColor);
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#intro {
+    margin-bottom: 60px;
+    position: relative;
+    padding: 80px 10px;
+    background-color: white;
+    text-align: center;
+}
+
+#intro .intro-header {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: var(--backgroundColor);
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#intro .intro-text {
+    color: var(--backgroundColor);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+#news {
+    margin-top: 75px;
+    background-color: var(--backgroundColor);
+    margin-bottom: 60px;
+    border-bottom: 4px solid var(--logoColor);
+    border-top: 4px solid var(--logoColor);
+}
+
+#news .news-header {
+    margin-top: 20px;
+    color: var(--logoColor);
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#news .news-subtext {
+    padding-bottom: 10px;
+    color: var(--logoColor);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    #main {
+    padding: 90px;
+    }
+    #main .main-text {
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 300;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #main .main-subtext {
+        font-size: 21px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+    #intro .intro-header {
+        color: var(--backgroundColor);
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #intro .intro-text {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #news .news-header {
+        margin-top: 15px;
+        color: var(--logoColor);
+        font-size: 26px;
+        font-weight: 300;
+    }
+    #news .news-subtext {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    #main {
+        padding: 80px;
+        }
+    #main .main-text {
+        font-size: 35px;
+        line-height: 30px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+}
+@media screen and (max-width: 450px) {
+    #main {
+        padding: 70px;
+        }
+    #main .main-text {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    #main .main-subtext {
+        font-size: 17px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+    #intro .intro-header {
+        color: var(--backgroundColor);
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #intro .intro-text {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    #news .news-header {
+        margin-top: 15px;
+        color: var(--logoColor);
+        font-size: 22px;
+        font-weight: 300;
+    }
+    #news .news-subtext {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    #news .news-subheader {
+        font-size: 12px;
+    }
+    @media screen and (max-width: 410px) {
+        #main {
+            padding: 60px;
+            }
+        #main .main-text {
+            font-size: 25px;
+            line-height: 30px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        #main .main-subtext {
+            font-size: 14px;
+            line-height: 25px;
+            font-weight: 300;
+        }
+        #intro .intro-header {
+            color: var(--backgroundColor);
+            font-size: 21px;
+            line-height: 36px;
+        }
+        #intro .intro-text {
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        #news .news-header {
+            margin-top: 15px;
+            color: var(--logoColor);
+            font-size: 19px;
+            font-weight: 300;
+        }
+        #news .news-subtext {
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        #main {
+            padding: 50px;
+            }
+        #main .main-text {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+        #main .main-subtext {
+            font-size: 12px;
+            line-height: 25px;
+            font-weight: 300;
+        }
+        #intro .intro-header {
+            color: var(--backgroundColor);
+            font-size: 21px;
+            line-height: 36px;
+            font-weight: 300;
+        }
+        #intro .intro-text {
+            font-size: 9px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        #news .news-header {
+            margin-top: 15px;
+            color: var(--logoColor);
+            font-size: 19px;
+            font-weight: 300;
+        }
+        #news .news-subtext {
+            font-size: 8px;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+        #news .news-subheader {
+            font-size: 11px;
+        }
+    }
+}
+

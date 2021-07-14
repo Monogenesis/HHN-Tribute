@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "tribute": "tribute-db",
+    "default": "tribute-db"
+  }
+}

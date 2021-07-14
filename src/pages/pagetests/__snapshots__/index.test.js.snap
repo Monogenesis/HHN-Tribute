@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index / Home page renders correctly 1`] = `
+<main>
+  <section
+    id="number"
+  >
+    <div
+      className="userNumber"
+    />
+  </section>
+  <section
+    id="main"
+  >
+    <div
+      className="main-text"
+    >
+      Welcome 
+      <br />
+       to 
+      <br />
+       tribute
+    </div>
+    <div
+      className="main-subtext"
+    >
+      <p>
+        Donate now and become a hero!
+      </p>
+      <div>
+        <label
+          id="UserCounterLabel"
+        >
+          Current Heroes:
+        </label>
+      </div>
+    </div>
+  </section>
+  <section
+    id="intro"
+  >
+    <div
+      className="intro-header"
+    >
+      <h2>
+        WHAT IS TRIBUTE?
+      </h2>
+    </div>
+    <div
+      className="intro-text"
+    >
+      <p>
+        The "Tribute-App" is a data donation app.
+      </p>
+      <p>
+        Researchers are counting on your donation,
+      </p>
+      <p>
+        so that new and reliable solutions can be found quicker.
+      </p>
+      <p>
+        Together with you we can fight the Covid-19 Pandemic and save lives now!
+      </p>
+    </div>
+  </section>
+  <section
+    id="news"
+  >
+    <div
+      className="news-header"
+    >
+      <h3>
+        Latest news
+      </h3>
+    </div>
+    <div
+      className="news-subtext"
+    >
+      <p>
+        Do you want to know more about the COVID-19 pandemic?
+      </p>
+      <p>
+        Here are live news to inform yourself about the current situation.
+      </p>
+    </div>
+    <div
+      className="news-firstImage"
+    >
+      <a
+        href="https://www.tagesschau.de/newsticker/liveblog-coronavirus-montag-153.html"
+        target="_blank"
+      >
+        <img
+          alt=""
+          src="images/corona-355__v-modPremium.jpg"
+        />
+      </a>
+      <div
+        className="news-subheader"
+      >
+        <h3>
+          tagesschau
+        </h3>
+        <p
+          className="news-info-text"
+        >
+          Here is the "tagesschau" Live-Blog.
+        </p>
+      </div>
+    </div>
+    <div
+      className="news-secondImage"
+    >
+      <a
+        href="https://www.swr.de/swraktuell/corona-aktuell-blog-130.html"
+        target="_blank"
+      >
+        <img
+          alt=""
+          src="images/23571831_L.png"
+        />
+      </a>
+      <div
+        className="news-subheader"
+      >
+        <h3>
+          SWR Aktuell
+        </h3>
+        <p
+          className="news-info-text"
+        >
+          Here is the "SWR Aktuell" Live-Blog.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+`;
