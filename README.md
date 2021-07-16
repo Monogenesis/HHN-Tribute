@@ -6,7 +6,7 @@ Demo website where users can donate bodyrelated data anonymously and view hotspo
 
 ## Demo
 
-The link forwards to the website, but due to inactivity firebase server the functionality has been discontinued.
+The link redirects to the website, but due to Firebase server inactivity, functionality is limited.
 
 https://tribute-db.web.app/
 
