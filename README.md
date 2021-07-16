@@ -13,7 +13,7 @@ https://tribute-db.web.app/
   
 ## Lessons Learned
 
-Methodics:
+Methodology:
 - Workflow (Jira, Confluence and Bitbucket)
 - Working with a team using scrum
 
