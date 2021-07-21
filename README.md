@@ -5,7 +5,7 @@ Demo website where users can donate bodyrelated data anonymously and view hotspo
 
 ## Motivation
 
-This project was part of a study assignment from the fourth semester. The given topic was to create a health data donation app. The objective was to plan the given topic in a software project from scratch and to implement it with agile methods like scrum. A lot of emphasis was put on the use of the Athlassian tools Jira, Confluence and Bitbucket.
+This project was part of a study assignment from the fourth semester. The given topic was: health data donation app. The objective was to plan the given topic in a software project from scratch and to implement it with agile methods like scrum. A lot of emphasis was put on the use of the Athlassian tools Jira, Confluence and Bitbucket.
 
 ## Demo
 
